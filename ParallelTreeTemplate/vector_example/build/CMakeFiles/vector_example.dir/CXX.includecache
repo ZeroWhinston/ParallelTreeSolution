@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/ParallelTree.hpp
+memory
+-
+vector
+-
+cstdint
+-
+
+/workspace/ParallelTreeTemplate/vector_example/main.cpp
+iostream
+-
+memory
+-
+vector
+-
+chrono
+-
+ParallelTree.hpp
+-
+
